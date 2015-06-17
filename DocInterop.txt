@@ -1,0 +1,98 @@
+DocInterop.txt 0.0.0                  UTF-8                     dh:2015-06-16
+
+            <https://github.com/orcmid/DocInterop>/DocInterop.txt
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+          ========================================================
+
+    This GIT repository is an experiment, hosted on GitHub, for demonstrating
+    basic ideas for growing a suite of test documents, procedures, and tools
+    that are valuable for the assessment/assurance of interoperability using
+    document files in open-standard formats.
+
+    The project produces speciment test documents, procedures, tools and a
+    framework for expanding to arbitrary levels of detailed coverage of
+    document-format provisions and their consistent interpretation when
+    interchanging files among heterogeneous systems.
+
+    The key idea is bootstrapping from an initial structure of simple tests
+    and companion material that grows in a principled manner to have greater
+    coverage and levels of detail.
+
+    Initial focus is on the OpenDocument Format (ODF) as specified by OASIS
+    Standard ODF 1.2,
+    <http://nfoworks.org/notes/2014/05/n140504-cache/#Essentials>.
+
+BACKGROUND INFORMATION
+
+    Basic ideas being wrestled to the ground with concrete demonstrations
+    here are sketched to some degree in the following resourcs:
+
+      * A view on the conformance of ODF 1.2 document files being sketched at
+        <http://nfoworks.org/notes/2014/06/n140602.htm>
+
+      * Ideas about principles of interoperability assurance that underly a
+        proposal for ODF 1.2 Change Tracking, being abstracted for more
+        applications as the RCT Principles,
+        <http://nfoworks.org/notes/2015/06/n150601.htm>
+
+      * A sketch for developing a spiraling of increasing coverage
+        as part of the Apache Corinthia Project (incubating),
+        <https://cwiki.apache.org/confluence/display/Corinthia/ODF>.
+
+
+
+INITIAL CONTENT
+
+               ODF/ [TBD] the location for boostrapping of interoperability
+                    assessment for the OpenDocument Format
+
+        principles/ [TBD] identification and establishment of meta-principles
+                    around this bootstrap procedure and how it can grow in
+                    coverage and also serve as a model for addressing more
+                    formats
+
+       scaffolding/ [TBD] material for the scaffolding of this repository
+                    and collateral materials in a systemantic manner
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Establish semantic versioning as the approach for these materials
+
+ * Demonstrate the use of HTML pages when material is accessed in GitHub
+
+ * Determine whether GitHub MarkDown is suitable for the desire to maintain
+   a structure of content that can be accessed and navigated in a file system
+   and with the use of a web browser.
+
+ * Collect material from Hamilton notebook page #73.37 and earlier.
+
+ * Initiate scaffolding.  Explain the use of these text files in the folders
+   of the same name.
+
+ * Initiate principles information, if not to be found elsewhere
+
+ * seed the ODF folder
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 0.0.0 2015-06-16-19:08 Placeholcer for boostrappiing the bootstrap.
+
+                      *** end of DocInterop.txt ***
