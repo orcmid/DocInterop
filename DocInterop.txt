@@ -1,6 +1,6 @@
-DocInterop.txt 0.0.0                  UTF-8                     dh:2015-06-16
+DocInterop.txt 0.0.1                  UTF-8                     dh:2015-06-17
 
-            <https://github.com/orcmid/DocInterop>/DocInterop.txt
+      <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
           DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
           ========================================================
@@ -91,8 +91,22 @@ TODO
 
  * seed the ODF folder
 
+ * Explore the provision of absolute URLs in access to content of this kind.
+   Using these in the text, as at the top of this page introduced in 0.0.1,
+   can lead to all kinds of drift in clones and copies elsewhere.  Scaffolding
+   needs to explore this at greater detail.
+
+ * Under scaffolding, use the subordinate attention Polyani distinction,
+   with principles being about the focal attention (though not completely?).
+   This is kind of a pattern-language issue with regard to change of abstrac-
+   tion, and perhaps is unnecesaary here?
+
+ * Account for the .gitignore changes as part of scaffolding also.
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.1 2015-06-17-10:02 Provide Direct URL
+       GitHub browser presentation of this file provides a URL for its
+       access.  That is employed as part of scaffolding experimentation.
  0.0.0 2015-06-16-19:08 Placeholcer for boostrappiing the bootstrap.
 
                       *** end of DocInterop.txt ***

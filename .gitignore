@@ -1,3 +1,8 @@
+# .gitignore 0.0.1                    UTF-8                   dh:2015-06-17
+#
+#                    FILES TO BE EXCLUDED FROM GIT ARCHIVING
+#                    =======================================
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
@@ -17,27 +22,23 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# =========================
-# Operating System Files
-# =========================
+# The OSX Operating System exclusions have been eliminated since this is
+# not happening on OSX.  These should be introduced only if needed.
 
-# OSX
-# =========================
+# DEVELOPMENT INTERMEDIATE AND TEMPORARY FILES
+# Development and build artifacts that do not need to be preserved and
+# included in the repository and its clones.  These should be treated as
+# ephemeral.
 
-.DS_Store
-.AppleDouble
-.LSOverride
+#   Exclude temporary files introduced by various utilities/editors
+*~
 
-# Thumbnails
-._*
+## - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - -
 
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
+# 0.0.1 2015-06-17-10:00 Customization for Orcmid
+#       The jEdit *~ backup files are excluded from the archive
+# 0.0.0 2015-06-16-17:31 Initial .gitignore
+#       The Windows default .gitignore and .gitattributes were selected
+#       on creation of the orcmid/DocInterop GitHub project.
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+#                   #### end of .gitignore ####
