@@ -1,4 +1,4 @@
-DocInterop.txt 0.0.2                  UTF-8                     dh:2015-06-17
+DocInterop.txt 0.0.3                  UTF-8                     dh:2015-06-17
 
       <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
@@ -44,8 +44,8 @@ BACKGROUND INFORMATION
 
 INITIAL CONTENT
 
-               ODF/ [TBD] the location for boostrapping of interoperability
-                    assessment for the OpenDocument Format
+               ODF/ boostrapping of interoperability assessment for the
+                    OpenDocument Format, centered on ODF 1.2
 
         principles/ [TBD] identification and establishment of meta-principles
                     around this bootstrap procedure and how it can grow in
@@ -80,10 +80,11 @@ TODO
 
  * Initiate principles information, if not to be found elsewhere
 
- * seed the ODF folder
-
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.3 2015-06-07-19:14 Establish ODF/
+       The ODF folder is initiated and work items for creation of the initial
+       layer of spiral development are identified there.
  0.0.2 2015-06-17-17:43 Establish scaffolding/
        The scaffolding folder is initiated and work items that anticipated it
        are moved there.
