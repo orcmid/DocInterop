@@ -1,4 +1,4 @@
-scaffolding.txt 0.0.0                 UTF-8                     dh:2015-06-17
+scaffolding.txt 0.0.1                 UTF-8                     dh:2015-06-18
 
 <https://github.com/orcmid/DocInterop>/DocInterop/scaffolding/scaffolding.txt>
 
@@ -84,9 +84,26 @@ TODO
  * Find a WYSIWYG HTML Editor.  If I can't get WebMatrix to do it, what else
    can I use?
 
+ * Explore GitHub pages too, although this might not work well for non-GitHub
+   repositories. I need to understand that.
+
+ * Establish the practice concerning static pages, only-local CSS, etc., as
+   part of the integrity of the scaffolding and the preservation of content.
+   The practice here satisfies some general principles that need to be
+   identified in that place.
+
+ * The use of semantic versioning and date stamping needs to be pointed out
+   as a way of having the provenance and history not depend on having the
+   repository.  Files, such as this one, removed from the repository still
+   provide their history, the license, and a link to their definitive
+   location.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+ 0.0.1 2015-06-18-08:16 Expand TODOs
+       Added more items on how this section will be used and more topics
+       that need to be covered.
  0.0.0 2015-06-17-17:40 Establish initial scaffolding folder cover and take
        over applicable TODO items.
 

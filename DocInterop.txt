@@ -1,4 +1,4 @@
-DocInterop.txt 0.0.3                  UTF-8                     dh:2015-06-17
+DocInterop.txt 0.0.4                  UTF-8                     dh:2015-06-18
 
       <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
@@ -80,9 +80,39 @@ TODO
 
  * Initiate principles information, if not to be found elsewhere
 
+ * Add a LICENSE file that establishes the use of Apache License Version 2
+   as the prevailing license.
+
+ * Add a NOTICE file that simply asserts there is no copyright transfer as
+   part of the license and that attribution and notice requirements of the
+   license must be honored.
+
+ * There needs to be some treatment for how notices are placed on derivative
+   versions and what happens when others contribute.  Contributions must
+   nonetheless have ALv2 licensing.  Compatible licenses (as determined by
+   the Apache Software Fouondation) will be considered.
+
+ * Make a recommended practice of back-tracing and provenance for the
+   documents.  ALv2 does not require that, but it may be a practice for this
+   work.  That would also be appropriate for preserving provenance, attribu-
+   tion and back linking were CC-by used on a derivative or new contribution.
+
+ * Under principles, I need to develop a spiraling technique that will deal
+   with the situation where even a simple test case will have bearing far
+   up the ladder (i.e., even an empty ODF Text document reveals things that
+   are essentially implementation-dependent application conventions).  We
+   don't want to deal with those when operating at a lower level and we won't
+   necessarily know when and where the up-helix treatments will arise, but we
+   do need a way to place markers and somehow kick the treatment forward with-
+   out deep-ending into its premature handling.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
- 0.0.3 2015-06-07-19:14 Establish ODF/
+ 0.0.4 2015-06-18-21 Add Licensing Work Items and Principle Concerns
+       Need for LICENSE, NOTICE, and additional provenance preservation
+       is added to TODO.  Concerns about minimizing foretelling of up-helix
+       considerations are raised.
+ 0.0.3 2015-06-17-19:14 Establish ODF/
        The ODF folder is initiated and work items for creation of the initial
        layer of spiral development are identified there.
  0.0.2 2015-06-17-17:43 Establish scaffolding/
