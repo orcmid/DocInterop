@@ -1,4 +1,4 @@
-ODF.txt 0.0.0                         UTF-8                     dh:2015-06-17
+ODF.txt 0.0.1                         UTF-8                     dh:2015-06-18
 
         <https://github.com/orcmid/DocInterop>/DocInterop/ODF/ODF.txt>
 
@@ -49,9 +49,6 @@ TODO
  * Establish the versions of ODF and how they are to be treated.  Maybe with
    a page on the respective classes.
 
- * Create a substrate folder that deals with substrate questions and how they
-   are reconciled.
-
  * Then set up null documents for the least-acceptable files that can be
    handled with no content.  Technically there might be no null package.
 
@@ -72,9 +69,28 @@ TODO
  * Figure out when to breakout into the different document types (Text,
    Spreadsheet, Presentation, etc.)
 
+ * There may need to be a way to kick some considerations up-level into a
+   place where they are parked without diving into them.  This may be a
+   principle/practice for bootstrapping and kicking some items forward to
+   a level that is not yet identified and refined.
+
+ * Global information on standards should be available here.  They can link
+   to the archiving at nfoWorks also.
+
+ * Information on software and ODF-supporting products/projects needs to be
+   somewhere.  It is not clear where that is.
+
+ * The way of connecting from and connecting into this material is not
+   established.  That should be some principled arrangement.
+
+ * Figure out how to structure initial test assertions and somehow work them
+   into a helix also.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-
+ 0.0.1 2015-06-18-10:13 Start substrate/
+       The substrate/ folder and notes are initiated.  These work items
+       are updated as a result of related thinking.
  0.0.0 2015-06-17-19:12 Establish initial scaffolding folder cover and start
        a list of TODO items.
 

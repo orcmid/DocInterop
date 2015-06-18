@@ -1,0 +1,103 @@
+substrate.txt 0.0.0                   UTF-8                     dh:2015-06-18
+
+        <https://github.com/orcmid/DocInterop>/DocInterop/ODF/ODF.txt>
+
+                         OPEN DOCUMENT FORMAT SUBSTRATE
+                         ==============================
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+
+    The ODF Document Format relies upon a substrate on which document files
+    are represented.  The document-representation substrate requirements
+    include
+
+     * XML 1.0
+       the carrier of most of the document structure and content material,
+       profiled in the ODF specification directly and indirectly
+
+     * Zip Packaging
+       profiled in the ODF specification for for use as a compound-document
+       carrier
+
+     * File-system streams and their identification on operating-system
+       platforms
+
+     * Association of MIME types with substrate materials
+
+     * Character-set encodings and their identification/detection
+
+     * Use of internationalized IRIs in the cross-referencing of materials
+       within packages and external to ODF document files
+
+    There are also some higher-level cases that rely on external-specification
+    profiles in composing special substrate-like constructions, including
+
+     * Application of digital-signature and encryption techniques to the
+       ODF document files
+
+     * Various binary formats that are incorporated in and/or used-from
+       ODF document files, including OLE components, binary representations
+       of images, etc.
+
+    It is neither intended nor required that document interoperability
+    assurance nclude comprehensive treatment of the technologies that are
+    relied upon in the ODF substrate.
+
+    Substrate considerations are identified in an analysis of ODF 1.2
+    Conformance, <http://nfoworks.org/notes/2014/06/n140602.htm>.  See
+    the top lines of the diagram at
+    <http://nfoworks.org/notes/2014/06/n140602b.htm>.
+
+INITIAL CONTENT
+
+    substrate.txt This note about what appears in the subfolder
+                  /DocInterop/ODF/substrate/
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Capture the requirements for XML and for Zip at least.  This may be a bit
+   difficult and there may need to be folders on this.  It is not at all
+   clear what can be done here, excpet there will be dependencies on it.
+
+ * Find the general statements with regard to XML and Zip.
+
+ * This is going to take us into Extended Document XML.  This is the easy
+   case and we should start there.
+
+ * The handling of Package and Extended Package separate from ODF documents
+   needs to be teased out.  The package structure absent ODF content is tricky
+   and needs to be grounded before we deal with Extended Document Packages and
+   just Conformant Document Packages.  The ODF 1.2 specification is not our
+   friend in this respect and it is better to stay with the flat file and
+   simple packages having the flat file as content.xml at the beginning.
+
+ * The references to specifications should be at the ODF level unless they
+   are peculiar to a given subordinate level here.
+
+ * We do need to tease out the specifications and what is said normatively
+   about them for the way ODF relies on them by reference, though.  Hmm.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+ 0.0.0 2015-06-18-09:51 Establish initial substrate folder note and start
+       a list of TODO items/notes.
+
+                         *** end of substrate.txt ***
