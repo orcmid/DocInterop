@@ -1,4 +1,4 @@
-DocInterop.txt 0.0.4                  UTF-8                     dh:2015-06-18
+DocInterop.txt 0.0.5                  UTF-8                     dh:2015-06-18
 
       <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
@@ -41,16 +41,15 @@ BACKGROUND INFORMATION
         <https://cwiki.apache.org/confluence/display/Corinthia/ODF>.
 
 
-
 INITIAL CONTENT
 
                ODF/ boostrapping of interoperability assessment for the
                     OpenDocument Format, centered on ODF 1.2
 
-        principles/ [TBD] identification and establishment of meta-principles
-                    around this bootstrap procedure and how it can grow in
-                    coverage and also serve as a model for addressing more
-                    formats
+        principles/ identification and establishment of principles that apply
+                    to the development of helices that spiral up from basic
+                    low-level conformance cases to full-up interoperability
+                    assurance, expressed in functional/pattern terms.
 
        scaffolding/ material for the scaffolding of this repository
                     and collateral materials in a systemantic manner, focused
@@ -78,8 +77,6 @@ TODO
 
  * Collect material from Hamilton notebook page #73.37 and earlier.
 
- * Initiate principles information, if not to be found elsewhere
-
  * Add a LICENSE file that establishes the use of Apache License Version 2
    as the prevailing license.
 
@@ -97,18 +94,13 @@ TODO
    work.  That would also be appropriate for preserving provenance, attribu-
    tion and back linking were CC-by used on a derivative or new contribution.
 
- * Under principles, I need to develop a spiraling technique that will deal
-   with the situation where even a simple test case will have bearing far
-   up the ladder (i.e., even an empty ODF Text document reveals things that
-   are essentially implementation-dependent application conventions).  We
-   don't want to deal with those when operating at a lower level and we won't
-   necessarily know when and where the up-helix treatments will arise, but we
-   do need a way to place markers and somehow kick the treatment forward with-
-   out deep-ending into its premature handling.
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
- 0.0.4 2015-06-18-21 Add Licensing Work Items and Principle Concerns
+ 0.0.5 2015-06-18-09:03 Initiate principles/
+       The principles/ folder is established and available for further
+       development.
+ 0.0.4 2015-06-18-08:21 Add Licensing Work Items and Principle Concerns
        Need for LICENSE, NOTICE, and additional provenance preservation
        is added to TODO.  Concerns about minimizing foretelling of up-helix
        considerations are raised.

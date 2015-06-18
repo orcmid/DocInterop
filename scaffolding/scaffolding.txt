@@ -1,4 +1,4 @@
-scaffolding.txt 0.0.1                 UTF-8                     dh:2015-06-18
+scaffolding.txt 0.0.2                 UTF-8                     dh:2015-06-18
 
 <https://github.com/orcmid/DocInterop>/DocInterop/scaffolding/scaffolding.txt>
 
@@ -77,14 +77,16 @@ TODO
  * Under scaffolding, use the subordinate attention Polyani distinction,
    with principles being about the focal attention (though not completely?).
    This is kind of a pattern-language issue with regard to change of abstrac-
-   tion, and perhaps is unnecesaary here?
+   tion, and perhaps is unnecesaary here?  The key idea is that principles
+   are higher-level, however evoked and observable in practices.  Scaffolding
+   is all about the identification of practices to be consistently applied.
 
  * Account for the .gitignore changes as part of scaffolding also.
 
  * Find a WYSIWYG HTML Editor.  If I can't get WebMatrix to do it, what else
    can I use?
 
- * Explore GitHub pages too, although this might not work well for non-GitHub
+ * Explore GitHub Pages too, although this might not work well for non-GitHub
    repositories. I need to understand that.
 
  * Establish the practice concerning static pages, only-local CSS, etc., as
@@ -100,7 +102,10 @@ TODO
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-
+ 0.0.2 2015-06-18-08:47 Separate Practice from Principles
+       The term "principles" is removed where scaffolding "practices" can be
+       emphasized, avoiding confusion with coverage in the principles/
+       section.
  0.0.1 2015-06-18-08:16 Expand TODOs
        Added more items on how this section will be used and more topics
        that need to be covered.

@@ -1,0 +1,90 @@
+principles.txt 0.0.0                 UTF-8                     dh:2015-06-18
+
+<https://github.com/orcmid/DocInterop>/DocInterop/principles/principles.txt>
+
+                                  PRINCIPLES
+                                  ==========
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+
+    This section of the bootstrap repository is about the principles that
+    apply to the development of helices that spiral from low-level conformance
+    concerns up through levels of interoperability assurance.
+
+    The principles are at the pattern/functional level.  Inessential (and
+    unavoidable) details of implementations are not addressed.  Those are
+    found in the scaffolding approach and in the specific format and practice
+    choices in the interoperability assessment development for a specific
+    document-file format, its open standard, and its interoperabiity profiles.
+
+    As part of bootstrapping, there are some experiments to be conducted.
+    Some principles will be identified only as implementation work reveals
+    the need for them and their identification in what the actual practice
+    becomes.
+
+    An important technique that is yet to be articulated is working of
+    cross-helix bridges from test documents to test scripts to test frame-
+    works and validation tools, and, ultimately to profile definitions and
+    the results of interoperability assessments.  The blending in of test
+    assertions (different from test cases and test suites) will be a factor.
+
+INITIAL CONTENT
+
+         principles.txt This folder note about what appears in the subfolder
+                        /DocInterop/principles/
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Identify how the materials are meant to be static and copyable with
+   preservation of provenance and authority, with effective cross-referencing.
+
+ * Cross-referencing and provenance of individual items (e.g., single files)
+   needs to be dealt with.
+
+ * Deal with the principles behind some (if not all) of the scaffolding
+   practices.
+
+ * Develop a spiraling technique that will deal
+   with the situation where even a simple test case will have bearing far
+   up the ladder (i.e., even an empty ODF Text document reveals things that
+   are essentially implementation-dependent application conventions).  We
+   don't want to deal with those when operating at a lower level and we won't
+   necessarily know when and where the up-helix treatments will arise, but we
+   do need a way to place markers and somehow kick the treatment forward with-
+   out deep-ending into its premature handling.
+
+ * Establish how test items identify their provenance and link to associated
+   materials.
+
+ * Do principles need something about governance?  It would seem that could
+   be a large pattern.  Also, about how the assessment tools are meant to
+   be usable by anyone, not just product assurance and QA folk, and assess-
+   ments can be made public and community-maintained.
+
+ * Get a handle on how Test Assertions target and are based on particular
+   levels, whether specifications or up-stream thingies.  Test Assertions
+   will be a way of lacing some elements together across helixes, perhaps.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 0.0.0 2015-06-18-09:02 Establish initial principles folder note and add
+       initial job-jar.
+
+                     *** end of principles.txt ***
