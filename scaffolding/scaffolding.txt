@@ -1,0 +1,93 @@
+scaffolding.txt 0.0.0                 UTF-8                     dh:2015-06-17
+
+<https://github.com/orcmid/DocInterop>/DocInterop/scaffolding/scaffolding.txt>
+
+                                  SCAFFOLDING
+                                  ===========
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+
+    This section of the bootstrap repository is about scaffolding. Scaffolding
+    is the underlying structure into which the useful material is organized
+    and connected.
+
+    The scaffolding follows certain principles.  This file and the parent-
+    directory file DocInterop.txt are examples of the application of some of
+    those principles.
+
+    Scaffolding provides the substrate of the project itself.  This is not the
+    same as the subject matter of the project, although the scaffolding
+    principles do support some of the principles for the subject matter.
+    Principles applicable to the subject matter and and the purpose of the
+    Document Interoperability Assessment/Assurance effort are covered in the
+    separate /DocInterop/principles/ folder.
+
+    As part of bootstrapping, there are some experiments to be conducted on
+    how the GitHub archive can be accessed directly as a web of resources.
+
+    Those experiments, the results, and related practices are all covered in
+    this folder.
+
+    Technically, the scaffolding is about the document engineering of the
+    medium for the content materials.  There are document engineering patterns
+    that apply here.  That is not to be belabored.
+
+INITIAL CONTENT
+
+        scaffolding.txt This folder cover about what appears in the subfolder
+                        /DocInterop/scaffolding/
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Establish semantic versioning as the approach for these materials
+
+ * Demonstrate the use of HTML pages when material is accessed in GitHub
+
+ * Determine whether GitHub MarkDown is suitable for the desire to maintain
+   a structure of content that can be accessed and navigated in a file system
+   and with the use of a web browser.
+
+ * Collect material from Hamilton notebook page #73.37 and earlier.
+
+ * Initiate scaffolding.  Explain the use of these text files in the folders
+   of the same name.
+
+ * Explore the provision of absolute URLs in access to content of this kind.
+   Using these in the text, as at the top of this page introduced in 0.0.1,
+   can lead to all kinds of drift in clones and copies elsewhere.  Scaffolding
+   needs to explore this at greater detail.
+
+ * Under scaffolding, use the subordinate attention Polyani distinction,
+   with principles being about the focal attention (though not completely?).
+   This is kind of a pattern-language issue with regard to change of abstrac-
+   tion, and perhaps is unnecesaary here?
+
+ * Account for the .gitignore changes as part of scaffolding also.
+
+ * Find a WYSIWYG HTML Editor.  If I can't get WebMatrix to do it, what else
+   can I use?
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+ 0.0.0 2015-06-17-17:40 Establish initial scaffolding folder cover and take
+       over applicable TODO items.
+
+                      *** end of scaffolding.txt ***
