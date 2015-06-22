@@ -1,4 +1,4 @@
-scaffolding.txt 0.0.2                 UTF-8                     dh:2015-06-18
+scaffolding.txt 0.0.3                 UTF-8                     dh:2015-06-18
 
 <https://github.com/orcmid/DocInterop>/DocInterop/scaffolding/scaffolding.txt>
 
@@ -100,8 +100,23 @@ TODO
    provide their history, the license, and a link to their definitive
    location.
 
+ * What should be done about a DocInterop wiki?  The URL,
+   <https://github.com/orcmid/DocInterop> has subfolders blob/ (the Git repo),
+   wiki/, orcmid Gists (gist.github.com/orcmid), issues, pulse, graphs/ and
+   probably/potentially others.  How do we avoid getting too deep into this.
+   A policy should be to stay platform portable.  Git is enough of a big
+   dependency.
+
+ * Create a file on the GitHub dependency?
+
+ * What about the Git dependency too?  There is also the whole Git governance
+   model (Linus version) and how that works.  I have a blog post on this at
+   <https://orcmid.wordpress.com/2014/04/11/guardian-dictator-manager-mentor-or-collaborator-be/>.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.3 2015-06-18-10:33 More Work Items
+       GitHub and Git dependencies need to be addressed.
  0.0.2 2015-06-18-08:47 Separate Practice from Principles
        The term "principles" is removed where scaffolding "practices" can be
        emphasized, avoiding confusion with coverage in the principles/
