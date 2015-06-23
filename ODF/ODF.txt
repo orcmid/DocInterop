@@ -1,4 +1,4 @@
-ODF.txt 0.0.1                         UTF-8                     dh:2015-06-18
+ODF.txt 0.0.2                         UTF-8                     dh:2015-06-22
 
         <https://github.com/orcmid/DocInterop>/DocInterop/ODF/ODF.txt>
 
@@ -22,11 +22,34 @@ ODF.txt 0.0.1                         UTF-8                     dh:2015-06-18
     important in areas where ODF is proposed for institutional adoption,
     especially in civil administration.
 
+    ODF 1.2 is the baseline for ODF DocInterop Assessment.  Docouments in
+    down-level versions (i.e., 1.1) of the format will be considered for
+    consumption at the interoperability level, but not in terms of ODF 1.2
+    conformance and processing compliance.  Whenever a subsequent ODF 1.3 and
+    later versions become available, the interoperable treatment of such up-
+    level documents by ODF 1.2 processors will also be assessed.
+
+SOURCE MATERIALS
+
+  OASIS Open.  OpenDocument Format for Office Applications (OpenDocument)
+    Version 1.2  29 September 2011 OASIS Standard. Complete file set
+    OpenDocument-v1.2-os.zip at <http://docs.oasis-open.org/office/v1.2/os/>
+    (cache at <http://nfoworks.org/notes/2014/05/n140504-cache/#n140504b1>).
+    This is the definitive specification for ODF 1.2.
+
+  Hamilton, Dennis E.  ODF 1.2 Conformance.  nfoWorks nfoNote folio n140602
+    at <http://nfoWorks.org/notes/2014/06/n140602.htm>.  The tersm of the
+    ODF 1.2 Conformance Matrix are employed in categories of DocInterop ODF
+    materials and their use in interoperability assurance.
+
 INITIAL CONTENT
 
-        ODF.txt This folder cover about what appears in the subfolder
+        ODF.txt this folder cover about what appears in the subfolder
                 /DocInterop/ODF/
 
+     substrate/ materials for assessment of the substrate level of ODF 1.2
+                document compliance, processor conformance, and any higher,
+                interoperability levels.
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -74,9 +97,6 @@ TODO
    principle/practice for bootstrapping and kicking some items forward to
    a level that is not yet identified and refined.
 
- * Global information on standards should be available here.  They can link
-   to the archiving at nfoWorks also.
-
  * Information on software and ODF-supporting products/projects needs to be
    somewhere.  It is not clear where that is.
 
@@ -86,8 +106,15 @@ TODO
  * Figure out how to structure initial test assertions and somehow work them
    into a helix also.
 
+ * Provide a link to the ODF 1.1 with Errata document.
+
+ * Provide a link to the OASIS ODF Technical Committee.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.2 2015-06-22-17:06 Add Resources on ODF
+       Emphasis on ODF 1.2 is established.  Initial resources are listed and
+       work items are expanded.
  0.0.1 2015-06-18-10:13 Start substrate/
        The substrate/ folder and notes are initiated.  These work items
        are updated as a result of related thinking.

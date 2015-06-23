@@ -1,4 +1,4 @@
-substrate.txt 0.0.0                   UTF-8                     dh:2015-06-18
+substrate.txt 0.0.1                   UTF-8                     dh:2015-06-22
 
         <https://github.com/orcmid/DocInterop>/DocInterop/ODF/ODF.txt>
 
@@ -11,6 +11,13 @@ substrate.txt 0.0.0                   UTF-8                     dh:2015-06-18
     are represented.  The document-representation substrate requirements
     include
 
+     * File-system streams and their identification on operating-system
+       platforms
+
+     * Association of MIME types with substrate materials
+
+     * Character-set encodings and their identification/detection
+
      * XML 1.0
        the carrier of most of the document structure and content material,
        profiled in the ODF specification directly and indirectly
@@ -19,12 +26,8 @@ substrate.txt 0.0.0                   UTF-8                     dh:2015-06-18
        profiled in the ODF specification for for use as a compound-document
        carrier
 
-     * File-system streams and their identification on operating-system
-       platforms
-
-     * Association of MIME types with substrate materials
-
-     * Character-set encodings and their identification/detection
+     * Zip component streams part of ODF 1.2 packages and part of packages
+       used for ODF 1.2 documents and also subdocuments in packages
 
      * Use of internationalized IRIs in the cross-referencing of materials
        within packages and external to ODF document files
@@ -40,7 +43,7 @@ substrate.txt 0.0.0                   UTF-8                     dh:2015-06-18
        of images, etc.
 
     It is neither intended nor required that document interoperability
-    assurance nclude comprehensive treatment of the technologies that are
+    assurance include comprehensive treatment of the technologies that are
     relied upon in the ODF substrate.
 
     Substrate considerations are identified in an analysis of ODF 1.2
@@ -74,7 +77,11 @@ TODO
 
  * Capture the requirements for XML and for Zip at least.  This may be a bit
    difficult and there may need to be folders on this.  It is not at all
-   clear what can be done here, excpet there will be dependencies on it.
+   clear what can be done here, except there will be dependencies on it.
+
+ * The ODF 1.2 Conformance note and Matrix needs to be extended to allow these
+   dependencies to be elaborated and connected.  DocInterop can reference that
+   analysis.
 
  * Find the general statements with regard to XML and Zip.
 
@@ -97,6 +104,7 @@ TODO
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+ 0.0.1 2015-06-22-17:07 Expand summary of coverage
  0.0.0 2015-06-18-09:51 Establish initial substrate folder note and start
        a list of TODO items/notes.
 
