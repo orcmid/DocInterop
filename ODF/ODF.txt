@@ -1,4 +1,4 @@
-ODF.txt 0.0.2                         UTF-8                     dh:2015-06-22
+ODF.txt 0.0.3                         UTF-8                     dh:2015-08-12
 
         <https://github.com/orcmid/DocInterop>/DocInterop/ODF/ODF.txt>
 
@@ -110,8 +110,17 @@ TODO
 
  * Provide a link to the OASIS ODF Technical Committee.
 
+ * Establish a notation for talking about the specifications and parts
+   within them.
+
+ * See if there is material from the Corinthia Wiki that can be brought here
+   since that is related to provision of assessments for ODF and OOXML as
+   well as other candidate formats.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.3 2015-08-12-18:52 Add some task items noticed while working on
+       substrate items
  0.0.2 2015-06-22-17:06 Add Resources on ODF
        Emphasis on ODF 1.2 is established.  Initial resources are listed and
        work items are expanded.

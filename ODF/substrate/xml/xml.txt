@@ -1,0 +1,85 @@
+xml.txt 0.0.0                         UTF-8                     dh:2015-08-12
+
+        <https://github.com/orcmid/DocInterop>
+               /DocInterop/ODF/substrate/xml/xml.txt>
+
+                    OPEN DOCUMENT FORMAT XML SUBSTRATE
+                    ==================================
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+
+    XML Documents are employed in several ways as components of ODF documents.
+
+    XML Documents provide a medium for components in several ways:
+
+     * As single XML file ODF documents with root element <office:document>
+       (and appropriate namespace binding for the "office" prefix), valid
+       according to the specified schema and be name-space well-formed and
+       conform to the xml-id specification [ODF1.2-1:2.2.1(C,D.1,D.2).
+
+     * As specific content files of an OpenDocument package, having many
+       of the same qualities as single XML file OpenDcument documents.
+
+     * Similarly, as specific content files for subdocuments in an
+       OpenDocument package.
+
+     * As special-purpose files in OpenDocument packages for specification
+       of a manifest, digital signature, and RDF metadata via XML documents.
+
+    There are no other defined cases of XML documents as components of ODF
+    documents.  It is conceivable that a package might contain additional
+    XML documents for separate purpose.  There is no explicit provision in
+    the ODF 1.0/1.1/1.2 specifications.
+
+    For the substrate case, only the single XML file ODF document can be
+    presented as a standalone XML file for simple substrate assessment.  This
+    form is very suitable for testing purposes, although not all OpenDocument
+    Consumers accept the single XML file case.
+
+    The other specified cases of XML documents as OpenDocument document compo-
+    nents will be assessed as part of the Zip substrate assessment.
+
+
+INITIAL CONTENT
+
+          xml.txt This note about what appears in the subfolder
+                  /DocInterop/ODF/substrate/xml/
+
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Establish a no-brainer case of single XML file OpenDocument Text
+   document that should be acceptable to all consumers that accept the single-
+   file case.
+
+ * Create variations that exercise different aspects of XML all within valid
+   single-file documents.
+
+ * Figure out a simple organization of these actual files, their assessment
+   procedures, relevant test assertions, and demonstration of assessment
+   results.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+
+ 0.0.0 2015-08-12-18:50 Establish initial xml folder note and start
+       a list of TODO items/notes.
+
+                         *** end of xml.txt ***
