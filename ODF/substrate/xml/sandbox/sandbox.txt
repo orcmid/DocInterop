@@ -1,0 +1,82 @@
+sandbox.txt 0.0.0                     UTF-8                     dh:2015-08-14
+
+          <https://github.com/orcmid/DocInterop>
+                 /DocInterop/ODF/substrate/xml/sandbox/sandbox.txt>
+
+                      OPEN DOCUMENT FORMAT XML SANDBOX
+                      ================================
+
+          DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
+
+    This sandbox/ is used to develop experimental tests for the XML substrate
+    without having any fully-formed idea of how to package the material or
+    completely describe its usage.
+
+    There is no permanent organization.  Sandbox material comes and goes.
+
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2015 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Make an absolute minimum XML document for an ODF text document.  This is
+   a basic, anyone who accepts these should accept this document.
+
+ * Work XML variations on this document with respect to different features:
+
+   * comments and comment violations.  We need comments to work from the
+     beginning.
+
+   * We need to look at XML prologue cases.
+
+   * Consider internal DTDs for character-entity definitions as an example.
+
+   * Test at least three charset cases, including one non-Unicode compatible.
+
+   * For those accepted, determine what is produced, if single XML files
+     are producible.
+
+   * Work through namespace binding variations, with simple cases of correct,
+     incorrect ODF binding cases, use of defaults, attribute differences, etc.
+
+   * Have a document with simple text-content sequence and nothing else
+
+   * Do not get into formatting, but look into Unicode character variation a
+     little, both in QNames and in text content.
+
+   * Do a little about what XML says about spaces, line-breaks, etc., but do
+     not deal with the ODF flavors for that.
+
+   * Consider simple extension cases in text-content.
+
+   * It may not be possible to do any xml:id cases at this level.  Determine
+     that when looking through the schemas.
+
+   * Difference between ODF 1.1 and 1.2 recognition should be demonstrated,
+     * specific version and no version
+     * extension optionality attributes
+     * how flattening does or does not work
+     * tie to some sort of profile on extension handling
+
+ * Figure out what kind of manifest should be here, if any.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 0.0.0 2015-08-16:17 Establish initial xml folder note and start
+       a list of TODO items/notes.
+
+                         *** end of sandbox.txt ***

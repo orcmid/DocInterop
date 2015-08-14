@@ -1,4 +1,4 @@
-xml.txt 0.0.0                         UTF-8                     dh:2015-08-12
+xml.txt 0.0.1                         UTF-8                     dh:2015-08-14
 
         <https://github.com/orcmid/DocInterop>
                /DocInterop/ODF/substrate/xml/xml.txt>
@@ -45,6 +45,9 @@ INITIAL CONTENT
           xml.txt This note about what appears in the subfolder
                   /DocInterop/ODF/substrate/xml/
 
+         sandbox/ folder for experimentation with simple XML cases without
+                  figuring out how to build them into test sets just yet.
+
 
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -76,9 +79,32 @@ TODO
    procedures, relevant test assertions, and demonstration of assessment
    results.
 
+ * Tests need to link to the test assertions they are part of.  There can be
+   test assertions that are also for various profile levels.  For example,
+   something like an OpenOffice.org profile, an RCT-level profile, etc.
+
+ * Put material about the substrate-level XML test assertions here at this
+   level.
+
+ * Determine what other XML content can be in files beyond the normal stuff,
+   especially since OpenOffice appears to have more than content.xml,
+   styles.xml, meta.xml, and settings.xml.  This needs to be exercised in
+   the package substrate too, perhaps.
+
+ * The complicated layering of abstractions in OpenDocument package document
+   files need to be addressed, especially with respect to the manifest,
+   digital signatures, encryption, and the RDF business.  Remember to account
+   for that in how substrate and higher levels are navigated.
+
+ * Need to figure out how standalone MathML works in this picture, if at all.
+   Perhaps it is a separate case.
+
+ * Can an internal DTD be used to place application constraints on a document?
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+ 0.0.1 2015-08-14-14:27 Add sandbox/ sub-folder and more TODO
  0.0.0 2015-08-12-18:50 Establish initial xml folder note and start
        a list of TODO items/notes.
 
