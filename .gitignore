@@ -1,4 +1,4 @@
-# .gitignore 0.0.1                    UTF-8                   dh:2015-06-17
+# .gitignore 0.0.2                    UTF-8                   dh:2015-12-10
 #
 #                    FILES TO BE EXCLUDED FROM GIT ARCHIVING
 #                    =======================================
@@ -31,10 +31,13 @@ $RECYCLE.BIN/
 # ephemeral.
 
 #   Exclude temporary files introduced by various utilities/editors
+*#
 *~
 
 ## - - - - - - - - - - - - - - -- - - - - - - - - - - - - - - - - - - -
 
+# 0.0.2 2015-12-10-07:46 Also eliminate *# files from Git.
+#       See if that actually works [;<).
 # 0.0.1 2015-06-17-10:00 Customization for Orcmid
 #       The jEdit *~ backup files are excluded from the archive
 # 0.0.0 2015-06-16-17:31 Initial .gitignore
