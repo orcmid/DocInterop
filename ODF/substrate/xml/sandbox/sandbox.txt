@@ -1,4 +1,4 @@
-sandbox.txt 0.0.0                     UTF-8                     dh:2015-08-14
+sandbox.txt 0.0.2                     UTF-8                     dh:2015-12-10
 
           <https://github.com/orcmid/DocInterop>
                  /DocInterop/ODF/substrate/xml/sandbox/sandbox.txt>
@@ -13,6 +13,11 @@ sandbox.txt 0.0.0                     UTF-8                     dh:2015-08-14
     completely describe its usage.
 
     There is no permanent organization.  Sandbox material comes and goes.
+
+    This will impact the Git repository and its history during the boot-
+    strapping effort.  At some point, a kind of database organization
+    may emerge that supplants this.  It will then be less clear whether
+    Git is the document-management approach of choice.
 
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -59,24 +64,78 @@ TODO
      little, both in QNames and in text content.
 
    * Do a little about what XML says about spaces, line-breaks, etc., but do
-     not deal with the ODF flavors for that.
+     not deal with the ODF flavors for that.  Consider Unicode version and
+     related impacts, especially where text-content is dealt-with/parsed.
 
    * Consider simple extension cases in text-content.
 
    * It may not be possible to do any xml:id cases at this level.  Determine
      that when looking through the schemas.
 
-   * Difference between ODF 1.1 and 1.2 recognition should be demonstrated,
-     * specific version and no version
-     * extension optionality attributes
-     * how flattening does or does not work
-     * tie to some sort of profile on extension handling
+ * Difference between ODF 1.1 and 1.2 recognition should be demonstrated,
+   * specific version and no version
+   * extension optionality attributes
+   * how flattening does or does not work
+   * tie to some sort of profile on extension handling
 
- * Figure out what kind of manifest should be here, if any.
+ * Figure out what kind of (source-tree) manifest should be here, if any.
+
+ * Distinguish Flat ODF documents (.fods, .fodt, .fodp, .fodg).
+
+   * Distinguish those that can be mapped directly to content.xml and multiple
+     pachage forms
+
+   * Deal with the fact that these ODF document files are single XML documents
+     and there is no registration of these extension names as preferred.  It
+     is an OpenOffice convention and must be at that level of profile.
+
+   * Use a naming convention that allows the cases to be translated easily to
+     use as content.xml (or more) in some packaged case.
+
+   * Flat ODF documents are the ODF counterpart of RTF, except under the
+     single schema that applies to all ODF documents files, however they are
+     packaged.
+
+ * Distinguish OpenOffice practices versus what the ODF specifications
+   differentiate.
+
+ * Provide cases for other implementations that might or might not honor the
+   OpenOffice (informal) profile.
+
+ * Confirm that Apache OpenOffice does not support Flat ODF document files in
+   any manner.  This becomes a profile issue also.
+
+ * Elevate these to substrate as the approach takes shape and we have some
+   test assertions, identified test cases, and assessment trials
+
+ * The first, simplest case over, is dead-simple-content.fodt
+
+ * Is an accession-numbering system and cataloguing needed?  It would seem
+   so.
+
+ * Does identification have to be structured or can it be sort of fixed-
+   size as in the IEEE assembly/component scheme?  I am favoring this.  On
+   reflection, there is also the question of tying to the specification,
+   and that also means tying to test assertions.  This need not be purely-
+   hierarchical and it could also be multi-way.
+
+ * Time to dig into the test-assertion model and figure out some versionable
+   initial customization.  The initial sandbox cases should be helpful in
+   figuring that out.
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
- 0.0.0 2015-08-16:17 Establish initial xml folder note and start
+ 0.0.2 2015-12-10-07:41 Consider Durable Role of the Sandbox
+       Such folders matter for the history of this undertaking and its
+       boot-strapping.  They may become a burden on the ultimate repository
+       of tests and assessment procedures.  Time to consider that after
+       getting a concrete start.
+ 0.0.1 2015-08-25-05:21 Add Work Items
+       Elaborate more needed in the XML substrate and to be distinguished,
+       especially the Float ODF document files that are single XML documents
+       and not in Zip packages.
+
+ 0.0.0 2015-08-14-16:17 Establish initial xml folder note and start
        a list of TODO items/notes.
 
                          *** end of sandbox.txt ***
