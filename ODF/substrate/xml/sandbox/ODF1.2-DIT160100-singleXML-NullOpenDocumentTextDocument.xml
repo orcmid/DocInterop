@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- ODF1.2-DIT160100 0.0.1                                    dh:2016-01-05
+<!-- ODF1.2-DIT160100 0.0.2                                    dh:2016-01-06
 
          <https://github.com/orcmid/DocInterop>
              /DocInterop/ODF/substrate/xml/sandbox/
@@ -18,6 +18,11 @@
      no existing content and one expects that it is presented as a document
      that has no content so far.  This document can be used to see what the
      default interpretation is for this document file when it is accepted.
+
+     The ODF specification also does not specify a MIME type or a file-name
+     extension for this form.  This version has extension .xml and is
+     otherwise identfied only as a UTF-8 XML file.  The <office:document>
+     element is what establishes this being an ODF 1.2 Text document.
 
      Apart from there being no document content, there is nothing unusual
      about this document file other than the extensive XML comments such as
@@ -101,11 +106,67 @@
       the document is accepted by a consuming processor that exports that
       document directly.
 
+    * It looks like the thing to do is to create a DIT folder.  It is likely
+      that all of DIT1601xx can be about the singleXML cases, although there
+      will need to be a concordance that maps DITs to whatever the test set
+      is.
+
+    * We need a different way to map to/from test assertions.  This is a bit
+      like pattern-language issues between theories/models and implementa-
+      tions.
+
+    * Find a way to document this in either plain HTML (preferable) or
+      MarkDown (popular but a bit too fragmented).
+
+    * Document AOO and MSO behavior with this file.  For those consumers that
+      do not accept this file, there is no need to apply further tests.  So
+      a gating case is this particular ODF 1.2 file and also its ODF 1.1
+      equivalent.
+
+    * Make the ODF 1.1 version, varying only by the omission of the
+      office:version attribute.
+
+    * The nfoWorks.org section on ODF assessment helix needs to be tied into
+      this material, and vice versa.  This raises a problem concerning which
+      is the definitive/authoritative source when there is duplicate infor-
+      mation.
+
+    * Move these work items to a more-appropriate file that applies to
+      DIT160100.
+
+    * Consider that ODF1.2 is not an essential prefix, but it could be in
+      the name to differentiate from ODF 1.1 and any explicit version scheme
+      that may come with ODF 1.3 (if ever).
+
+    * See how renaming and moving among folder hierarchy is handled in Git,
+      doing such refactoring for the DIT160100 material.
+
+    * Have a manifest somewhere that accounts for the captured test informa-
+      tion and the screen captures and any saved documents with defaults.
+
+    * Make an ODF 1.0/1.1 version of this test case.
+
+    * Make a version that has a local DTD for this case.
+
+    * Work namespace variations and default namespace cases for a still-
+      well-formed schema conformant documents.
+
+    * Make cases that use incorrect namespaces for the above variations,
+      including this one, retaining the prefixes but not the namespaces,
+      or have no namespaces definition for a prefix.
+
+    * All of these will fit into content.xml files for substrate-package
+      null cases.
+
+
 
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     -->
 
-<!-- 0.0.1 2016-01-05-18:00 Adjust the Name
+<!-- 0.0.2 2016-01-06-09:36 Add Work Items
+           Until there is better structure, work items around this set of
+           tests are gathered in this file's TODO section.
+     0.0.1 2016-01-05-18:00 Adjust the Name
            Emphasize that it is a null document of the specified form.
      0.0.0 2016-01-05-17:34 Initial Well-Formed Single XML ODF Text Test
            Create an annotated minimal document for Single XML Sandbox
