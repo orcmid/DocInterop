@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- ODF1.2-DIT160100 0.0.1                                    dh:2016-01-05
+
+         <https://github.com/orcmid/DocInterop>
+             /DocInterop/ODF/substrate/xml/sandbox/
+                 ODF1.2-DIT160100-singleXML-NullOpenDocumentTextDocument.xml>
+
+           DOCUMENT INTEROP NULL OPENDOCUMENT TEXT SINGLE XML DOCUMENT
+           ===========================================================
+
+     This ODF 1.2 document file demonstrates a null text document in single
+     XML file format.  This is a completely legitimate, absolutely minimal
+     ODF 1.2 Text Document that happens to have no content.
+
+     The ODF specification does not require that this form of document be
+     accepted by an ODF Consumer.  However, if it is recognized and accepted,
+     there is no reason for rejection of the details.  It is a document with
+     no existing content and one expects that it is presented as a document
+     that has no content so far.  This document can be used to see what the
+     default interpretation is for this document file when it is accepted.
+
+     Apart from there being no document content, there is nothing unusual
+     about this document file other than the extensive XML comments such as
+     this one.  These are all well-formed in accordance with the XML 1.0
+     specification and an ODF 1.2 consumer is permitted to simply ignore them.
+     There is no interpretation of XML comments provided for ODF 1.2 files.
+     -->
+
+<office:document
+        xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0"
+        office:mimetype="application/vnd.oasis.opendocument.text"
+        office:version="1.2">
+
+    <!-- In addition to establishment of the correct namespace, the mimetype
+         and version attributes are required by the schema for the
+         <office:document> element.  The mimetype choices is one for plain
+         text document and not one for text-template or text-master.  One
+         must be chosen for an OpenDocument Text Document by Single XML file.
+
+         The root <office:document> element is required for single XML file
+         format of OpenDocument Documents by clause 2.2.1(C.2) of ODF 1.2
+         Part 1.
+
+         An <office:body> element is the only element required by the
+         <office:document> schema.
+         -->
+
+    <office:body>
+        <!-- An <office:text> element is the only element required by the
+             <office:body> schema.
+             -->
+        <office:text>
+            <!-- An <office:text> element is required for OpenDocument
+                 Text Documents by clause 2.2.3(C) in ODF 1.2 Part 1.
+                 In accordance with the schema for <office:text> this
+                 element has all optional constructs omitted.  In particular,
+                 the office-text-content-main pattern is satisfied by the
+                 choice of none-or-more text-content patterns.
+
+                 This is a valid text document having no text content
+                 whatsoever.
+                 -->
+        </office:text>
+    </office:body>
+</office:document>
+
+<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                       Copyright 2016 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+   TODO
+
+    * Tie to an explanation of the DIT test-document identifiers and rules
+      for the XML ones.  Those rules can appeal to anything higher up.
+
+    * Tie to specific resources, such as the annotated schema and other
+      materials.
+
+    * Situate this file in its canonical location when we have it.  The
+      sandbox location is not permanent.
+
+    * Explain what is ordinary and not meant to be problematic about this
+      test file.
+
+    * Tie to some specification of the single XML Test Document null cases.
+
+    * Tie this document into instructions for how it is used to test
+      acceptance or not, and also demonstrate what the default becomes when
+      the document is accepted by a consuming processor that exports that
+      document directly.
+
+
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    -->
+
+<!-- 0.0.1 2016-01-05-18:00 Adjust the Name
+           Emphasize that it is a null document of the specified form.
+     0.0.0 2016-01-05-17:34 Initial Well-Formed Single XML ODF Text Test
+           Create an annotated minimal document for Single XML Sandbox
+           Testing.  The form is provisional as the approach to annotation
+           of such documents is worked out.
+
+                       *** end of ODF1,2-DIT140600 ***
+     -->

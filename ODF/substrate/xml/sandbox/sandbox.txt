@@ -1,4 +1,4 @@
-sandbox.txt 0.0.2                     UTF-8                     dh:2015-12-10
+sandbox.txt 0.0.3                     UTF-8                     dh:2016-01-05
 
           <https://github.com/orcmid/DocInterop>
                  /DocInterop/ODF/substrate/xml/sandbox/sandbox.txt>
@@ -38,10 +38,7 @@ sandbox.txt 0.0.2                     UTF-8                     dh:2015-12-10
 
 TODO
 
- * Make an absolute minimum XML document for an ODF text document.  This is
-   a basic, anyone who accepts these should accept this document.
-
- * Work XML variations on this document with respect to different features:
+ * Work XML variations on the document with respect to different features:
 
    * comments and comment violations.  We need comments to work from the
      beginning.
@@ -125,11 +122,16 @@ TODO
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.3 2016-01-05-17:55 Add Single XML for Null OpenDocument Text Document
+       The simple annotated file with no ODF content is generated for
+       verifying a simple case to be elaborated further.
+
  0.0.2 2015-12-10-07:41 Consider Durable Role of the Sandbox
        Such folders matter for the history of this undertaking and its
        boot-strapping.  They may become a burden on the ultimate repository
        of tests and assessment procedures.  Time to consider that after
        getting a concrete start.
+
  0.0.1 2015-08-25-05:21 Add Work Items
        Elaborate more needed in the XML substrate and to be distinguished,
        especially the Float ODF document files that are single XML documents
