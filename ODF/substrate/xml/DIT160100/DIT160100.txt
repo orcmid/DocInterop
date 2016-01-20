@@ -1,0 +1,98 @@
+DIT160100.txt 0.0.0                   UTF-8                     dh:2016-01-19
+
+        <https://github.com/orcmid/DocInterop>
+               /DocInterop/ODF/substrate/xml/DIT160100/DIT160100.txt>
+
+                    OPEN DOCUMENT FORMAT XML SUBSTRATE
+                    ==================================
+
+                  SINGLE-XML NULL ODF-TEXT-DOCUMENT CASE
+
+  [ED.NOTE: PLACEHOLDER FOR DRAFT TO COME]    
+
+    The other specified cases of XML documents as OpenDocument document compo-
+    nents will be assessed as part of the Zip substrate assessment.  The
+    package substrate will have some parallel cases with the ones here to
+    ensure that the more-common in-package use of ODF XML address test cases
+    paralleling those introduced here.
+
+
+INITIAL CONTENT
+
+      DIT160100.txt This note about what appears in the subfolder
+                    /DocInterop/ODF/substrate/xml/DIT160100/
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+                      Copyright 2016 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+TODO
+
+ * Establish a no-brainer case of single XML file OpenDocument Text
+   document that should be acceptable to all consumers that accept the single-
+   file case.
+
+ * Possibly create variations that exercise different aspects of XML all
+   within valid single-file documents.
+
+ * Figure out a simple organization of these actual files, their assessment
+   procedures, relevant test assertions, and demonstration of assessment
+   results.  This will be part of developing a schema for others.
+
+ * Tests need to link to the test assertions they are part of.  There can be
+   test assertions that are also for various profile levels.  For example,
+   something like an OpenOffice.org profile, an RCT-level profile, etc.
+
+ * Character set encodings need to be explored, along with some of the Unicode
+   characters that have functions similar to basic ASCII controls for white
+   space.
+   
+ * Populate this DIT160100 folder with construction structure and work items
+   that apply to only it.
+   
+ * Determine where the scheme of tests and related assertions for these DIT
+   cases should go.
+   
+ * Rename the singleXML-NUllOpenDocumentTextDocument to shorter form that
+   matches the test results.
+   
+ * Can we do more than one test case in DIT160100, since they are flexed
+   off of the base test?
+   
+ * Describe the test cases in a simple way.
+ 
+ * Describe the specimen results also.
+ 
+ * Need to figure out how to name more results, where to tabulate them, etc.
+ 
+ * This is going to lead to profiling in some manner.  Need to consider 
+   where that belongs and how it ties into these.
+   
+ * Capture what the main platforms do when they do not accept one of these
+   documents.
+   
+ * Distinguish when LibreOffice does and does not accept the unadorned .xml
+   file naming.
+   
+ * Don't forget ODF 1.1 vs ODF 1.2.
+ 
+ * Take TODOs out of the .xml file itself and park them here.
+
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 0.0.0 2016-01-19-18:51 Establish initial DIT160100 folder note, bring in
+       TODO items/notes.  
+       
+                         *** end of DIT160100.txt ***

@@ -1,4 +1,4 @@
-sandbox.txt 0.0.3                     UTF-8                     dh:2016-01-05
+sandbox.txt 0.0.4                     UTF-8                     dh:2016-01-19
 
           <https://github.com/orcmid/DocInterop>
                  /DocInterop/ODF/substrate/xml/sandbox/sandbox.txt>
@@ -119,8 +119,17 @@ TODO
  * Time to dig into the test-assertion model and figure out some versionable
    initial customization.  The initial sandbox cases should be helpful in
    figuring that out.
+   
+ * Now that I have promoted the Single XML Simple Document "null" case
+   to ../DIT160100, with others to follow in companion folders, I can also
+   elevate many of these TODOs.  I am using an accession numbering scheme,
+   and that might have a component-model form, but not just yet.
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+ 0.0.4 2016-01-19-18:20 Promote Single XML Simple Null to ../DIT160100 here.
+       The promoted material leaves the sandbox empty until something else
+       experimental might be needed.  
 
  0.0.3 2016-01-05-17:55 Add Single XML for Null OpenDocument Text Document
        The simple annotated file with no ODF content is generated for

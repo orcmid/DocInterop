@@ -1,4 +1,4 @@
-xml.txt 0.0.2                         UTF-8                     dh:2015-12-10
+xml.txt 0.0.3                         UTF-8                     dh:2016-01-19
 
         <https://github.com/orcmid/DocInterop>
                /DocInterop/ODF/substrate/xml/xml.txt>
@@ -50,12 +50,16 @@ INITIAL CONTENT
 
          sandbox/ folder for experimentation with simple XML cases without
                   figuring out how to build them into test sets just yet.
+                  
+       DIT160100/ SingleXML Null OpenDocument Text Document Test
+                  The baseline test for SingleXML files.
+       
 
 
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-                       Copyright 2015 Dennis E. Hamilton
+                    Copyright 2015-2016 Dennis E. Hamilton
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -116,9 +120,27 @@ TODO
    something that ODF used and did not signal in any particular way.  So
    font mappings figure into this too.  This may be more than substrate,
    depending how it figures into XML parsing.
+   
+ * Move the TODOs that are in sandbox 0.0.4 here for working through as part
+   of elaboration on the XML substrate.
+   
+ * Populate the DIT160100 folder with construction structure and work items
+   that apply to only it.
+   
+ * Determine where the scheme of tests and related assertions for these DIT
+   cases should go.
+   
+ * Rename the singleXML-NUllOpenDocumentTextDocument to shorter form that
+   matches the test results.
+   
+ * Can we do more than one test case in DIT160100, since they are flexed
+   off of the base test?
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.3 2016-01-19-18:31 Introduce DIT160100/
+       Bring the singleXML Null ODF Text Document case here, add related
+       work items.
  0.0.2 2015-12-10-07:30 Expand TODO to consider Unicode versions and rendering
        of codes.
  0.0.1 2015-08-14-14:27 Add sandbox/ sub-folder and more TODO
