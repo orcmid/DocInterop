@@ -1,4 +1,4 @@
-DocInterop.txt 0.0.6                  UTF-8                     dh:2015-12-10
+DocInterop.txt 0.0.7                  UTF-8                     dh:2016-01-22
 
       <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
@@ -32,13 +32,14 @@ BACKGROUND INFORMATION
         <http://nfoworks.org/notes/2014/06/n140602.htm>
 
       * Ideas about principles of interoperability assurance that underly a
-        proposal for ODF 1.2 Change Tracking, being abstracted for more
-        applications as the RCT Principles,
-        <http://nfoworks.org/notes/2015/06/n150601.htm>
+        proposal for ODF 1.2 Change Tracking, 
+        <http://nfoworks.org/rct/>
 
-      * A sketch for developing a spiraling of increasing coverage
-        as part of the Apache Corinthia Project (incubating),
-        <https://cwiki.apache.org/confluence/display/Corinthia/ODF>.
+      * A sketch for developing a spiraling of increasing coverage of 
+        profiles for the envelope within which ODF implementations are
+        interoperable, <http://nfoworks.org/notes/2015/06/n150601.htm>.
+        This is the web project for which the GitHub DocInterop 
+        project develops proofs-of-concept.
 
 
 INITIAL CONTENT
@@ -55,11 +56,17 @@ INITIAL CONTENT
                     and collateral materials in a systemantic manner, focused
                     on the plumbing and not the content supported on the
                     scaffolding
+                    
+     DocInterop.txt This manifest and summary file
+     
+        LICENSE.txt Apache License v2.0 to this work
+        
+          README.md GitHub-friendly README information
 
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-                       Copyright 2015 Dennis E. Hamilton
+                    Copyright 2015-2016 Dennis E. Hamilton
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -75,14 +82,14 @@ INITIAL CONTENT
 
 TODO
 
- * Collect material from Hamilton notebook page #73.37 and earlier.
-
- * Add a LICENSE file that establishes the use of Apache License Version 2
-   as the prevailing license.
+ * Collect material from Hamilton notebook page #73.37 and earlier. 
+   [dh:2016-01-22 Now #73.91 and earlier]
 
  * Add a NOTICE file that simply asserts there is no copyright transfer as
    part of the license and that attribution and notice requirements of the
-   license must be honored.
+   license must be honored. [dh:2016-01-22 This is not what NOTICE works
+   for.  I may need a CREDITS file for the use of text worked up on the
+   Apache Corinthia wiki.]
 
  * There needs to be some treatment for how notices are placed on derivative
    versions and what happens when others contribute.  Contributions must
@@ -93,12 +100,15 @@ TODO
    documents.  ALv2 does not require that, but it may be a practice for this
    work.  That would also be appropriate for preserving provenance, attribu-
    tion and back linking were CC-by used on a derivative or new contribution.
-
- * Preserve information on the assurance helix from the Corinthia cwiki here.
-
+   
+ * Should I be using git: URL schemes for links here?
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.7 2016-01-22-11:03 Add LICENSE and README, touch-up manifest, text
+       The connection with <http://nfoworks.org/notes/2015/06/n150601.htm>
+       and the RCT paper is strengthened and more writing will be at 
+       nfoWorks and linked from the DocInterop project. 
  0.0.6 2015-12-10-11:04 Add work Item
        Figure out how to preserve assurance helix material from the Corinthia
        CWiki -- probably on nfoWorks.org pages.
