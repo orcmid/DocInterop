@@ -1,4 +1,4 @@
-DIT160100.txt 0.0.0                   UTF-8                     dh:2016-01-19
+DIT160100.txt 0.0.1                  UTF-8                     dh:2016-01-26
 
         <https://github.com/orcmid/DocInterop>
                /DocInterop/ODF/substrate/xml/DIT160100/DIT160100.txt>
@@ -8,19 +8,36 @@ DIT160100.txt 0.0.0                   UTF-8                     dh:2016-01-19
 
                   SINGLE-XML NULL ODF-TEXT-DOCUMENT CASE
 
-  [ED.NOTE: PLACEHOLDER FOR DRAFT TO COME]    
+   Single XML documents are a defined form for conveying ODF 1.2 Documents.
+   The test cases here are based on an absolute minimum form of ODF Text
+   document in Single XML form.  This single file should be acceptable to
+   any consuming processor that accepts the Single XML form for ODF Text.
 
-    The other specified cases of XML documents as OpenDocument document compo-
-    nents will be assessed as part of the Zip substrate assessment.  The
-    package substrate will have some parallel cases with the ones here to
-    ensure that the more-common in-package use of ODF XML address test cases
-    paralleling those introduced here.
+   The null document has no content data.  The XML file includes heavy
+   use of XML comments, and those must be accepted.  It is not expected
+   that a consuming processor would preserve the comments, however.
 
 
 INITIAL CONTENT
 
       DIT160100.txt This note about what appears in the subfolder
                     /DocInterop/ODF/substrate/xml/DIT160100/
+
+      DIT160100-ODF1.2-singleXML-NullText.xml
+                    The minimum singleXML Text Document that is a simple,
+                    without tricks empty document that any singleXML consumer
+                    should accept without complaint.
+                    (Renamed at version 0.0.3).
+
+      DIT160100-ODF1.2-singleXML-NullTest-0.0.1-LibreOffice5.0.0-Opened.png
+                    Screen capture demonstrating the opening of the 0.0.1
+                    version of the singleXML-NullText.xml document.
+
+      DIT160100-ODF1.2-singleXML-NullTest-0.0.1-LibreOffice5.0.0-Resaved.fodt
+                    The opened document resaved by LibreOffice 5.0.0 with its
+                    default .fodt filename extension for singleXML Text
+                    documents.
+
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -40,9 +57,7 @@ INITIAL CONTENT
 
 TODO
 
- * Establish a no-brainer case of single XML file OpenDocument Text
-   document that should be acceptable to all consumers that accept the single-
-   file case.
+ * Explain more about how to test with these documents and what to expect.
 
  * Possibly create variations that exercise different aspects of XML all
    within valid single-file documents.
@@ -58,41 +73,92 @@ TODO
  * Character set encodings need to be explored, along with some of the Unicode
    characters that have functions similar to basic ASCII controls for white
    space.
-   
+
  * Populate this DIT160100 folder with construction structure and work items
    that apply to only it.
-   
+
  * Determine where the scheme of tests and related assertions for these DIT
    cases should go.
-   
- * Rename the singleXML-NUllOpenDocumentTextDocument to shorter form that
-   matches the test results.
-   
+
  * Can we do more than one test case in DIT160100, since they are flexed
    off of the base test?
-   
+
  * Describe the test cases in a simple way.
- 
+
  * Describe the specimen results also.
- 
+
  * Need to figure out how to name more results, where to tabulate them, etc.
- 
- * This is going to lead to profiling in some manner.  Need to consider 
+
+ * This is going to lead to profiling in some manner.  Need to consider
    where that belongs and how it ties into these.
-   
+
  * Capture what the main platforms do when they do not accept one of these
    documents.
-   
+
  * Distinguish when LibreOffice does and does not accept the unadorned .xml
    file naming.
-   
+
  * Don't forget ODF 1.1 vs ODF 1.2.
- 
- * Take TODOs out of the .xml file itself and park them here.
+
+ * Tie to an explanation of the DIT test-document identifiers and rules
+   for the XML ones.  Those rules can appeal to anything higher up.
+
+ * Tie to specific resources, such as the annotated schema and other
+   materials.
+
+ * Explain what is ordinary and not meant to be problematic about this
+    file.
+
+ * Tie to some specification of the single XML Test Document null cases.
+
+ * Tie this document into instructions for how it is used to test
+   acceptance or not, and also demonstrate what the default becomes when
+   the document is accepted by a consuming processor that exports that
+   document directly.
+
+ * We need a different way to map to/from test assertions.  This is a bit
+   like pattern-language issues between theories/models and implementa-
+   tions.
+
+ * Find a way to document this in either plain HTML (preferable) or
+   MarkDown (popular but a bit too fragmented).
+
+ * Document AOO and MSO behavior with this file.  For those consumers that
+   do not accept this file, there is no need to apply further tests.  So
+   a gating case is this particular ODF 1.2 file and also its ODF 1.1
+   equivalent.
+
+ * Make the ODF 1.1 version, varying only by the omission of the
+   office:version attribute.
+
+ * The nfoWorks.org section on ODF assessment helix needs to be tied into
+   this material, and vice versa.  This raises a problem concerning which
+   is the definitive/authoritative source when there is duplicate infor-
+   mation.
+
+ * Consider that ODF1.2 is not an essential prefix, but it could be in
+   the name to differentiate from ODF 1.1 and any explicit version scheme
+   that may come with ODF 1.3 (if ever).
+
+ * Make an ODF 1.0/1.1 version of this test case.
+
+ * Make a version that has a local DTD for this case.
+
+ * Work namespace variations and default namespace cases for a still-
+   well-formed schema conformant documents.
+
+ * Make cases that use incorrect namespaces for the above variations,
+   including this one, retaining the prefixes but not the namespaces,
+   or have no namespaces definition for a prefix.
+
+ * All of these will fit into content.xml files for substrate-package
+   null cases.
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.1 2016-01-26-17:53 Clean up Folder Content and Work Items
+       Manifest reflects renamed materials and the 0.0.3 NullText document
  0.0.0 2016-01-19-18:51 Establish initial DIT160100 folder note, bring in
-       TODO items/notes.  
-       
+       TODO items/notes.
+
                          *** end of DIT160100.txt ***
