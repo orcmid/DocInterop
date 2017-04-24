@@ -1,6 +1,6 @@
-scaffolding.txt 0.0.3                 UTF-8                     dh:2015-06-18
+scaffolding.txt 0.0.4                 UTF-8                          2017-04-24
 
-<https://github.com/orcmid/DocInterop>/DocInterop/scaffolding/scaffolding.txt>
+ <https://github.com/orcmid/DocInterop/blob/master/scaffolding/scaffolding.txt>
 
                                   SCAFFOLDING
                                   ===========
@@ -64,7 +64,8 @@ TODO
    a structure of content that can be accessed and navigated in a file system
    and with the use of a web browser.
 
- * Collect material from Hamilton notebook page #73.37 and earlier.
+ * Collect material from Hamilton notebook page #73.37 and earlier. [As of
+   2017-04-24, page #74.47 and earlier]
 
  * Initiate scaffolding.  Explain the use of these text files in the folders
    of the same name.
@@ -108,6 +109,10 @@ TODO
    dependency.
 
  * Create a file on the GitHub dependency?
+ 
+ * Complete or remove the XML subfolder.  We need to distinguish between the
+   substrate over under ODF/ and matters related to scaffolding and this 
+   repository.  Figure it out better.
 
  * What about the Git dependency too?  There is also the whole Git governance
    model (Linus version) and how that works.  I have a blog post on this at
@@ -115,6 +120,8 @@ TODO
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.4 2017-04-24-13:12 Add direct link to GitHub master location of this file,
+       reviewing/refining TODOs.
  0.0.3 2015-06-18-10:33 More Work Items
        GitHub and Git dependencies need to be addressed.
  0.0.2 2015-06-18-08:47 Separate Practice from Principles

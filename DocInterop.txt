@@ -1,4 +1,4 @@
-DocInterop.txt 0.0.7                  UTF-8                     dh:2016-01-22
+DocInterop.txt 0.0.9                  UTF-8                        2017-04-24
 
       <https://github.com/orcmid/DocInterop/blob/master/DocInterop.txt>
 
@@ -10,14 +10,9 @@ DocInterop.txt 0.0.7                  UTF-8                     dh:2016-01-22
     that are valuable for the assessment/assurance of interoperability using
     document files in open-standard formats.
 
-    The project produces speciment test documents, procedures, tools and a
-    framework for expanding to arbitrary levels of detailed coverage of
-    document-format provisions and their consistent interpretation when
-    interchanging files among heterogeneous systems.
-
-    The key idea is bootstrapping from an initial structure of simple tests
-    and companion material that grows in a principled manner to have greater
-    coverage and levels of detail.
+    The key idea is bootstrapping from an initial structure of simple test
+    cases and companion material that grows in a principled manner to have
+    greater coverage and levels of detail.
 
     Initial focus is on the OpenDocument Format (ODF) as specified by OASIS
     Standard ODF 1.2,
@@ -42,7 +37,7 @@ BACKGROUND INFORMATION
         project develops proofs-of-concept.
 
 
-INITIAL CONTENT
+CONTENT
 
                ODF/ boostrapping of interoperability assessment for the
                     OpenDocument Format, centered on ODF 1.2
@@ -53,7 +48,7 @@ INITIAL CONTENT
                     assurance, expressed in functional/pattern terms.
 
        scaffolding/ material for the scaffolding of this repository
-                    and collateral materials in a systemantic manner, focused
+                    and collateral materials in a systematic manner, focused
                     on the plumbing and not the content supported on the
                     scaffolding
                     
@@ -61,12 +56,15 @@ INITIAL CONTENT
      
         LICENSE.txt Apache License v2.0 to this work
         
+         NOTICE.txt Apache Software Foundation project NOTICE form for this
+                    content
+        
           README.md GitHub-friendly README information
 
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-                    Copyright 2015-2016 Dennis E. Hamilton
+                    Copyright 2015-2017 Dennis E. Hamilton
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -83,28 +81,29 @@ INITIAL CONTENT
 TODO
 
  * Collect material from Hamilton notebook page #73.37 and earlier. 
-   [dh:2016-01-22 Now #73.91 and earlier]
+   [dh:2017-04-24 Now #74.47 and earlier]
 
- * Add a NOTICE file that simply asserts there is no copyright transfer as
-   part of the license and that attribution and notice requirements of the
-   license must be honored. [dh:2016-01-22 This is not what NOTICE works
-   for.  I may need a CREDITS file for the use of text worked up on the
-   Apache Corinthia wiki.]
-
- * There needs to be some treatment for how notices are placed on derivative
-   versions and what happens when others contribute.  Contributions must
-   nonetheless have ALv2 licensing.  Compatible licenses (as determined by
-   the Apache Software Fouondation) will be considered.
+ * I may need a CREDITS file for the use of any of the text worked up about
+   this on the Apache Corinthia incubator wiki.
 
  * Make a recommended practice of back-tracing and provenance for the
    documents.  ALv2 does not require that, but it may be a practice for this
-   work.  That would also be appropriate for preserving provenance, attribu-
-   tion and back linking were CC-by used on a derivative or new contribution.
+   work.  This can be by tying to the web site as well as GitHub.  There needs
+   to be more connection.
    
  * Should I be using git: URL schemes for links here?
+ 
+ * With respect to interoperability assurance, we need to distinguish between
+   test assertions, test cases, and test suites.  There is also some patterns
+   and practices to consider.  Introduce that at an appropriate level.
+   
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.9 2017-04-24-12:41 Add NOTICE.txt, updating TODOs and touching up the
+       descriptive material.
+ 0.0.8 2016-08-18-16:57 Touch up and remove redundant statement in the 
+       summary.
  0.0.7 2016-01-22-11:03 Add LICENSE and README, touch-up manifest, text
        The connection with <http://nfoworks.org/notes/2015/06/n150601.htm>
        and the RCT paper is strengthened and more writing will be at 

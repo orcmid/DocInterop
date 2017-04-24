@@ -1,6 +1,6 @@
-principles.txt 0.0.0                 UTF-8                     dh:2015-06-18
+principles.txt 0.0.1                 UTF-8                         2017-04-24
 
-<https://github.com/orcmid/DocInterop>/DocInterop/principles/principles.txt>
+ <https://github.com/orcmid/DocInterop/blob/master/principles/principles.txt>
 
                                   PRINCIPLES
                                   ==========
@@ -36,7 +36,7 @@ INITIAL CONTENT
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-                       Copyright 2015 Dennis E. Hamilton
+                       Copyright 2015-2017 Dennis E. Hamilton
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -84,6 +84,8 @@ TODO
 
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.1 2017-04-24-12:51 Provide direct link to GitHub master location of
+       this file.
  0.0.0 2015-06-18-09:02 Establish initial principles folder note and add
        initial job-jar.
 
