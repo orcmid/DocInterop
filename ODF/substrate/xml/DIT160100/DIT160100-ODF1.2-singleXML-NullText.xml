@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- DIT160100-ODF1.2-singleXML-NullText 0.0.3                    dh:2016-01-26
+<!-- DIT160100-ODF1.2-singleXML-NullText 0.0.4                  dh:2016-01-26
 
-         <https://github.com/orcmid/DocInterop>
-             /DocInterop/ODF/substrate/xml/DIT160100/
-                 DIT160100-ODF1.2-singleXML-NullText.xml>
+     <https://github.com/orcmid/DocInterop/blob/master/ODF/substrate/xml/DIT160100/DIT160100-ODF1.2-singleXML-NullText.xml>
 
-           DOCUMENT INTEROP NULL OPENDOCUMENT TEXT SINGLE XML DOCUMENT
-           ===========================================================
+           DOCINTEROP NULL OPENDOCUMENT TEXT SINGLE XML TEST DOCUMENT
+           ==========================================================
 
      This ODF 1.2 document file demonstrates a null text document in single
      XML file format.  This is a completely legitimate, absolutely minimal
@@ -29,6 +27,11 @@
      this one.  These are all well-formed in accordance with the XML 1.0
      specification and an ODF 1.2 consumer is permitted to simply ignore them.
      There is no interpretation of XML comments provided for ODF 1.2 files.
+
+     [NOTE: This file also relies heavily on the required treatment of
+            XML Comments and white space in elements that do not introduce
+            textual content according to the ODF 1.2 Schema
+            ]
      -->
 
 <office:document
@@ -64,6 +67,10 @@
 
                  This is a valid text document having no text content
                  whatsoever.
+
+                 There is an interesting case involving saving this document
+                 back out as a test result to demonstrate all the additional
+                 XML tags and attributes that are introduced.
                  -->
         </office:text>
     </office:body>
@@ -71,7 +78,7 @@
 
 <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
-                       Copyright 2016 Dennis E. Hamilton
+                    Copyright 2016, 2021 Dennis E. Hamilton
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -89,7 +96,8 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     -->
 
-<!-- 0.0.3 2016-01-26-18:00 Rename and Integrate in D160100 folder
+<!-- 0.0.4 2021-05-14T17:54Z Wordsmith the annotations, use current URL.
+     0.0.3 2016-01-26-18:00 Rename and Integrate in D160100 folder
            The name is simplified and TODO items are all removed to
            incorporation in other files of the D160100 folder structure
            into which this and related files have been moved from a
