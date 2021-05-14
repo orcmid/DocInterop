@@ -1,7 +1,6 @@
-xml.txt 0.0.3                         UTF-8                     dh:2016-01-19
+xml.txt 0.0.4                         UTF-8                     dh:2021-05-14
 
-        <https://github.com/orcmid/DocInterop>
-               /DocInterop/ODF/substrate/xml/xml.txt>
+ <https://github.com/orcmid/DocInterop/blob/master/ODF/substrate/xml/xml.txt>
 
                     OPEN DOCUMENT FORMAT XML SUBSTRATE
                     ==================================
@@ -31,10 +30,10 @@ xml.txt 0.0.3                         UTF-8                     dh:2016-01-19
     XML documents for separate purpose.  There is no explicit provision in
     the ODF 1.0/1.1/1.2 specifications.
 
-    For the substrate case, only the single XML file ODF document can be
-    presented as a standalone XML file for simple substrate assessment.  This
-    form is very suitable for testing purposes, although not all OpenDocument
-    Consumers accept the single XML file case.
+    Only the single XML file ODF document can be presented as a standalone
+    XML file for simple substrate assessment.  This form is very suitable for
+    testing purposes, although not all OpenDocument Consumers accept the
+    single XML file case.
 
     The other specified cases of XML documents as OpenDocument document compo-
     nents will be assessed as part of the Zip substrate assessment.  The
@@ -50,10 +49,10 @@ INITIAL CONTENT
 
          sandbox/ folder for experimentation with simple XML cases without
                   figuring out how to build them into test sets just yet.
-                  
+
        DIT160100/ SingleXML Null OpenDocument Text Document Test
                   The baseline test for SingleXML files.
-       
+
 
 
 
@@ -120,24 +119,34 @@ TODO
    something that ODF used and did not signal in any particular way.  So
    font mappings figure into this too.  This may be more than substrate,
    depending how it figures into XML parsing.
-   
+
  * Move the TODOs that are in sandbox 0.0.4 here for working through as part
    of elaboration on the XML substrate.
-   
+
  * Populate the DIT160100 folder with construction structure and work items
    that apply to only it.
-   
+
  * Determine where the scheme of tests and related assertions for these DIT
    cases should go.
-   
+
  * Rename the singleXML-NUllOpenDocumentTextDocument to shorter form that
    matches the test results.
-   
+
  * Can we do more than one test case in DIT160100, since they are flexed
    off of the base test?
 
+ * Is there a packaged document that is very close to the single-XML-file
+   document case?  These might provide counterparts of the single-file case
+   that may demonstrate adherence even though the single-XML-file case is
+   unsupported.
+
+ * The wording of some of these TODOs suggests they have been cloned from
+   a different-level scaffolding.  Check that out about substrate.xml.
+
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
+ 0.0.4 2021-05-14T17:32Z Use Test Suite/Case nomenclature here and tidy up
+       for editing via Visual Studio Code. Manage TODOs.
  0.0.3 2016-01-19-18:31 Introduce DIT160100/
        Bring the singleXML Null ODF Text Document case here, add related
        work items.
