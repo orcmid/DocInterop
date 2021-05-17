@@ -1,16 +1,15 @@
-substrate.txt 0.0.2                   UTF-8                     dh:2015-08-12
+substrate.txt 0.0.3                   UTF-8                     dh:2021-05-17
 
-              <https://github.com/orcmid/DocInterop>
-                     /DocInterop/ODF/substrate/substrate.txt>
+<https://github.com/orcmid/DocInterop/blob/master/ODF/substrate/substrate.txt>
 
                         OPEN DOCUMENT FORMAT SUBSTRATE
                         ==============================
 
           DOCUMENT INTEROPERABILITY ASSESSMENT/ASSURANCE BOOTSTRAP
 
-    The ODF Document Format relies upon a substrate on which document files
-    are represented.  The document-representation substrate requirements
-    include
+    The ODF Document Format relies upon a substrate in which the file
+    representations of documents are recorded. The document-representation
+    substrate includes
 
      * File-system streams and their identification on operating-system
        platforms
@@ -24,16 +23,16 @@ substrate.txt 0.0.2                   UTF-8                     dh:2015-08-12
        profiled in the ODF specification directly and indirectly
 
      * Zip Packaging
-       profiled in the ODF specification for for use as a compound-document
-       carrier
+       profiled in the ODF specification for use as a compound-document
+       container
 
      * Zip component in ODF 1.2 packages and also subdocuments in packages
 
      * Use of internationalized IRIs in the cross-referencing of materials
        within packages and external to ODF document files
 
-    There are also some higher-level cases that rely on external-specification
-    profiles in composing special substrate-like constructions, including
+    There are also higher-level cases that rely on ODF-external specifications
+    in composing special constructions, including
 
      * Application of digital-signature and encryption techniques to the
        ODF document files
@@ -43,12 +42,16 @@ substrate.txt 0.0.2                   UTF-8                     dh:2015-08-12
        of images, etc.
 
     It is neither intended nor required that document interoperability
-    assurance include comprehensive treatment of the technologies that are
-    relied upon in the ODF substrate.  The approach is to provide enough
-    cases in simple applications of ODF to reveal any edge cases or deviations
-    from the relevant specifications.  These are basically smell tests and
-    simple comfirnations.  The only reason to extend tests beyound that
-    purpose is if specific difficulties come to light.
+    assurance include comprehensive and general-purpose assessment of all
+    those technologies.  The objective is sufficient assessment to confirm
+    interoperable usage among ODF-conformant document representations and
+    their consumers/producers.  DocInterop substrate tests carve out surfaces
+    of interoperability using enough edge cases reveal deviations from the
+    specifications of substrate technologies.
+
+    These are basically smell tests and simple comfirnations.  The only
+    reason to extend substrate tests beyound that is if specific disparaties
+    come to light.
 
     Substrate considerations are identified in an analysis of ODF 1.2
     Conformance, <http://nfoworks.org/notes/2014/06/n140602.htm>.  See
@@ -111,6 +114,8 @@ TODO
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 
+ 0.0.3 2021-05-17T23:12Z Wordsmith and make the limitation of substrate test
+       cases more emphatic.
  0.0.2 2015-08-12-18:51 Add xml/ and make text adjustments
  0.0.1 2015-06-22-17:07 Expand summary of coverage
  0.0.0 2015-06-18-09:51 Establish initial substrate folder note and start
