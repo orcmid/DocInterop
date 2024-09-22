@@ -1,8 +1,8 @@
 # Security Policy
 <!-- ---1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
-     security.md 1.0.11            UTF-8                        dh:2024-09-19
+     security.md 1.0.12            UTF-8                        dh:2024-09-22
      -->
-**2024-09-19 Status**: The DocInterop project/repository is a public,
+**2024-09-22 Status**: The DocInterop project/repository is a public,
 open-source development of materials for testing the interoperability of
 document-processing formats and software.
 
@@ -27,7 +27,8 @@ that pertains to DocInterop, however unlikely, use the GitHub vulnerability
 reporting provision of the
 [DocInterop Security](https://github.com/orcmid/DocInterop/security) tab.
 
-If you are unable to exercise that capability, or prefer private email communication, send a digitally-signed plaintext email to
+If you are unable to exercise that capability, or prefer private email
+communication, send a digitally-signed plaintext email to
 [orcmid](mailto:orcmid@msn.com).
 
 If you have reservations about email security/privacy, enclose an
@@ -35,5 +36,5 @@ ASCII-armored file PGP-encrypted using the
 [orcmid Apache](https://people.apache.org/keys/committer/orcmid.asc)
 public key.
 
-If you wish encrypted responses, sign that message before
+Finally, if you wish encrypted responses, sign that message before
 encryption in order for your public key to be available for that purpose.
