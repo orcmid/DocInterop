@@ -1,4 +1,4 @@
-docs.txt 0.0.0                      UTF-8                         2024-11-13
+docs.txt 0.0.1                      UTF-8                         2024-11-14
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
                           nfoWare/nfoWorks docInterop                            =======================
@@ -20,8 +20,9 @@ docs.txt 0.0.0                      UTF-8                         2024-11-13
 
 MANIFEST
 
-        docs.txt
-            this manifest and job-jar file
+        docs.txt  this manifest and job-jar file
+
+      images/     images for use in hybridForms and top-level materials
 
 
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
@@ -45,7 +46,7 @@ MANIFEST
  ATTRIBUTION
 
    Hamilton, Dennis E. Document Interoperability Assessment/Assurance
-   Documentation.  Text file docs.txt version 0.0.0 dated 2024-11-13 available
+   Documentation.  Text file docs.txt version 0.0.1 dated 2024-11-14 available
    on the Internet as a version of
    <https://orcmid.github.io/docInterop/docs.txt>.
 
@@ -61,11 +62,15 @@ MANIFEST
   * Update the security policy when ready.  That hybridForm will determine
     the minimum Front Porch needed.
 
+  * Populate general images/ as needed for hybridForms, markdown, and HTML
+    pages of construction structures.
+
 
 
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
- 0.0.0 2024-11-13T19:40Z Placeholder for initial creation of DocInterop docs/
+ 0.0.1  2024-11-14T17:22Z Add images/
+ 0.0.0  2024-11-13T19:40Z Placeholder for initial creation of DocInterop docs/
 
 
                           ***** end of docs.txt *****

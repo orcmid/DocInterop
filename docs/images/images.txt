@@ -1,0 +1,80 @@
+images.txt 0.0.0                    UTF-8                      dh:2024-11-14
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                           nfoWare/nfoWorks docInterop
+                          == =========================
+
+   <https://github.com/orcmid/docInterop/blob/master/docs/images/images.txt>
+           <https://orcmid.github.io/docInterop/images/images.txt>
+
+                    DOCINTEROP GITHUB PAGES COMMON IMAGES
+                    -------------------------------------
+
+    This folder is for images that are used generally on the docInterop
+    web site.  Images and screen captures on specific topics are carried
+    in the folios for those topics.
+
+    The docInterop are chosen with the streaming-of-bits nfoWare image in
+    mind.
+
+    Note: This folder has no viewable index.md/.html page.  That is by intent.
+
+MANIFEST
+
+               images.txt      this manifest and job-jar file
+
+          hardhatarea.gif      large hard hat image useful for a full warning
+       hardhat-button.gif      tiny button-size image
+         hardhat-logo.gif      medium-small for in a folio title strip
+        hardhat-thumb.gif      correct size construction-structure footer link
+
+           InteropBit.kra      Intermediate Krita of bit stream with nfoWare
+                               removed (in-progress)
+
+          nfoWareBits.gif      Original nfoWare bit-stream images for
+     nfoWareBits-logo.gif      repurposing at docInterop
+    nfoWareBits-thumb.gif
+
+   ScaffoldingWorkers-logo.png Workers for use on construction structure pages
+   ScaffoldingWorkers-Shutterstock-8114219.jpg
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+                       Copyright 2024 Dennis E. Hamilton
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ ATTRIBUTION
+
+   Hamilton, Dennis E. docInterop GitHub Pages Common Images. docInterop
+   project text file images.txt version 0.0.0 dated 2024-11-14,
+   available on the Internet as a version of
+   <https://orcmid.github.io/docInterop/images/images.txt>
+
+TODO
+
+ * the nfoWare images are more suitable for docInterop.
+
+ * Adapt a new version of the bit-stream-transfer not using VSD
+
+ * The nfoWareBits images are captured here as work product in the creation
+   of a unique docInterop logo based on the streaming of bits between hands.
+
+*---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
+
+ 0.0.0 2024-11-14T17:45Z Placeholder adapted from 0.0.4 nfoTools counterpart
+
+
+                      ***** end of images.txt *****
