@@ -1,17 +1,67 @@
-# Auto detect text files and perform LF normalization
+# .gitattributes 0.0.0             UTF-8                        dh:2024-11-19
+#
+#                GIT ATTRIBUTES FOR THE docInterop GIT REPOSITORY
+
+# Set the default behavior in case people don't have core.autocrlf set.
+# This will automatically convert between line-ending style of the client
+# and whatever line-ending style that is found in the repository.  (On the
+# client, always use a Git package that is compiled for the native OS.)
+
 * text=auto
+# This declares files to be text by default and to be line-ending alterable.
+# Be careful.  See the group below.
 
-# Custom for Visual Studio
-*.cs     diff=csharp
+# Denote all files that are truly binary and must not be scanned for line-end.
+# Some of these might also be .gitignored.  Better safe than sorry.  A variety
+# may arise in docInterop materials.
 
-# Standard to msysgit
-*.doc	 diff=astextplain
-*.DOC	 diff=astextplain
-*.docx diff=astextplain
-*.DOCX diff=astextplain
-*.dot  diff=astextplain
-*.DOT  diff=astextplain
-*.pdf  diff=astextplain
-*.PDF	 diff=astextplain
-*.rtf	 diff=astextplain
-*.RTF	 diff=astextplain
+*.bmp binary
+*.gif binary
+*.jfif binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.suo binary
+*.zip binary
+
+*.vsd binary
+*.vsdx binary
+*.vsdm binary
+*.vdx binary
+
+*.kra binary
+
+*.docx binary
+*.docm binary
+*.dotx binary
+*.dotm binary
+*.doc binary
+*.dot binary
+*.xslx binary
+*.xlsm binary
+*.xltx binary
+*.xltm binary
+*.xls binary
+*.xlt binary
+*.pptx binary
+*.pptm binary
+*.potx binary
+*.potm binary
+*.ppsx binary
+*.ppsm binary
+*.ppt binary
+
+*.odt binary
+*.ott binary
+*.ods binary
+*.ots binary
+*.odp binary
+*.otp binary
+*.odg binary
+*.otg binary
+*.odm binary
+*.odb binary
+
+# 0.0.0 2024-11-19T17:27Z Obtained from 0.0.5 docEng version.
+#
+#                          *** end of .gitattributes ***

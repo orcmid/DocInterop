@@ -1,4 +1,4 @@
-images.txt 0.0.0                    UTF-8                      dh:2024-11-14
+images.txt 0.0.1                    UTF-8                      dh:2024-11-19
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
                            nfoWare/nfoWorks docInterop
@@ -28,8 +28,8 @@ MANIFEST
          hardhat-logo.gif      medium-small for in a folio title strip
         hardhat-thumb.gif      correct size construction-structure footer link
 
-           InteropBit.kra      Intermediate Krita of bit stream with nfoWare
-                               removed (in-progress)
+          InteropBitZ.kra      Intermediate Krita of bit stream with nfoWare
+                               removed (a Zip format type)
 
           nfoWareBits.gif      Original nfoWare bit-stream images for
      nfoWareBits-logo.gif      repurposing at docInterop
@@ -74,6 +74,8 @@ TODO
 
 *---|----1----|----2----|----3----|----4----|----5----|----6----|----7----|--*
 
+ 0.0.1 2024-11-19T17:34Z Resaving as InteropBitsZ.kra to ensure preserved as
+       a binary (Zip-package) format with improvied docInterop .gitattributes
  0.0.0 2024-11-14T17:45Z Placeholder adapted from 0.0.4 nfoTools counterpart
 
 
